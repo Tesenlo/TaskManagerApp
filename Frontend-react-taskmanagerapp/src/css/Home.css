@@ -1,0 +1,43 @@
+.home-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 200px;
+  padding: 1rem;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.total {
+  background-color: #6a11cb;
+}
+
+.card.pending {
+  background-color: #ff9800;
+}
+
+.card.in-progress {
+  background-color: #03a9f4;
+}
+
+.card.completed {
+  background-color: #4caf50;
+}
